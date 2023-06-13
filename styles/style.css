@@ -1,3 +1,27 @@
-.navbar-brand {
+a {
   text-transform: capitalize;
+  transition: all 0.3s ease !important;
+}
+
+.img-profile {
+  border-radius: 50%;
+}
+.list-group {
+  margin-top: 2rem;
+}
+.badge {
+  margin-right: 0.5rem;
+  margin-top: 0.4rem;
+}
+.view-profile {
+  margin: 0.5rem 0;
+}
+.view-profile:hover {
+  transform: scale(1.03);
+  background-color: #378dfc !important;
+  /* border: 2px solid #378dfc !important; */
+  color: #fff !important;
+}
+.search {
+  margin-bottom: 1.5rem;
 }
